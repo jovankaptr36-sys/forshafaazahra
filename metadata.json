@@ -1,0 +1,8 @@
+{
+  "name": "ForShafa",
+  "description": "Interactive 3D Girlfriend Day surprise website featuring a rotating glowing planet, floating polaroid photo galaxy, starry background, romantic ambient music, customizable names, and single-file HTML exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
