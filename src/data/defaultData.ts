@@ -1,5 +1,4 @@
 import { ConfigData } from '../types';
-import image1 from "../assets/photos/image.png";
 
 export const DEFAULT_CONFIG: ConfigData = {
   partnerName: 'Shafa Azahra',
@@ -28,7 +27,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p1',
       // ⬇️ GANTI LINK FOTO 1 DI SINI
-      url: '/src/assets/photos/foto1.jpeg',
+      url: "/photos/foto1.jpeg",
       caption: 'ini urr soo prettyy babee',
       date: '28 Agst 2026',
       orbitRadius: 4.8,
@@ -40,7 +39,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p2',
       // ⬇️ GANTI LINK FOTO 2 DI SINI
-      url: '/src/assets/photos/foto2.jpeg',
+      url: "/photos/foto2.jpeg",
       caption: 'ini kamu lucu banget  😊',
       date: '29 april 2026',
       orbitRadius: 5.6,
@@ -52,7 +51,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p3',
       // ⬇️ GANTI LINK FOTO 3 DI SINI
-      url: '/src/assets/photos/foto3.jpeg',
+      url: "/photos/foto3.jpeg",
       caption: 'ini after tragedi lv haha lucu 🌸',
       date: '26 Juli 2026',
       orbitRadius: 6.4,
@@ -64,7 +63,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p4',
       // ⬇️ GANTI LINK FOTO 4 DI SINI
-      url: '/src/assets/photos/foto4.jpeg',
+      url: "/photos/foto4.jpeg",
       caption: 'inii gila kamuu cantikk bangett',
       date: '14 Juni 2026',
       orbitRadius: 7.2,
@@ -76,7 +75,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p5',
       // ⬇️ GANTI LINK FOTO 5 DI SINI
-      url: '/src/assets/photos/foto5.jpeg',
+      url: "/photos/foto5.jpeg",
       caption: 'Ini kamu habis nemenin aku volly hihi 💕',
       date: '10 Juli 2026',
       orbitRadius: 5.2,
@@ -88,7 +87,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p6',
       // ⬇️ GANTI LINK FOTO 6 DI SINI
-      url: '/src/assets/photos/foto6.jpeg',
+      url: "/photos/foto6.jpeg",
       caption: 'emm arghhh ini aku cakep bet, ehh kamu jugaa cantikk heheh ✨',
       date: '3 Maret 2026',
       orbitRadius: 6.0,
@@ -100,7 +99,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p7',
       // ⬇️ GANTI LINK FOTO 7 DI SINI
-      url: '/src/assets/photos/foto7.jpeg',
+      url: "/photos/foto7.jpeg",
       caption: 'inii kita lagi cfd',
       date: '12 Juli 2026',
       orbitRadius: 6.8,
@@ -112,7 +111,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p8',
       // ⬇️ GANTI LINK FOTO 8 DI SINI
-      url: '/src/assets/photos/foto8.jpeg',
+      url: "/photos/foto8.jpeg",
       caption: 'ini di ungaran, ini foto lucu bangt nyakk',
       date: '31 Mei 2026',
       orbitRadius: 7.6,
@@ -124,7 +123,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p9',
       // ⬇️ GANTI LINK FOTO 9 DI SINI
-      url: '/src/assets/photos/foto9.jpeg',
+      url: "/photos/foto9.jpeg",
       caption: 'inii di prau, cantikk banget yakk sayangnya aku',
       date: '15 Mei 2026',
       orbitRadius: 5.0,
@@ -136,7 +135,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p10',
       // ⬇️ GANTI LINK FOTO 10 DI SINI
-      url: '/src/assets/photos/foto10.jpeg',
+      url: "/photos/foto10.jpeg",
       caption: 'My prettey girlfriend im so in lovee with youuu🌌',
       date: '2 Febuari 2026 (kmu kirim hihi)',
       orbitRadius: 5.8,
@@ -148,7 +147,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p11',
       // ⬇️ GANTI LINK FOTO 11 DI SINI
-      url: '/src/assets/photos/foto11.jpeg',
+      url: "/photos/foto11.jpeg",
       caption: 'Lowkey so proud and grateful i found you. ngl',
       date: '13 Febuari 2026',
       orbitRadius: 6.6,
@@ -160,7 +159,7 @@ LOVEE YOUU ADEEE`,
     {
       id: 'p12',
       // ⬇️ GANTI LINK FOTO 12 DI SINI
-      url: '/src/assets/photos/foto12.jpeg',
+      url: "/photos/foto12.jpeg",
       caption: 'arghh ini lucu banget, You Are My Everything 💍',
       date: '28 Febuari 2026',
       orbitRadius: 7.4,

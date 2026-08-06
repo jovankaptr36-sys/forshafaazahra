@@ -314,9 +314,11 @@ export const ThreeScene: React.FC<ThreeSceneProps> = ({ config, showSplash = fal
 
       // Load image onto canvas
       const img = new Image();
-      img.crossOrigin = 'Anonymous';
       img.src = photo.url;
+
       img.onload = () => {
+        console.log("BERHASIL:", photo.url);
+      
         ctx.save();
         ctx.beginPath();
         ctx.rect(32, 32, 448, 448);
@@ -325,6 +327,7 @@ export const ThreeScene: React.FC<ThreeSceneProps> = ({ config, showSplash = fal
         const scale = Math.max(448 / img.width, 448 / img.height);
         const x = 32 + (448 - img.width * scale) / 2;
         const y = 32 + (448 - img.height * scale) / 2;
+        
         ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
         ctx.restore();
 
@@ -346,10 +349,12 @@ export const ThreeScene: React.FC<ThreeSceneProps> = ({ config, showSplash = fal
 
         texture.needsUpdate = true;
       };
+  img.onerror = () => {
+  console.log("GAGAL:", photo.url);
+};
 
-      return texture;
-    };
-
+return texture;
+};
     const cardGeometry = new THREE.PlaneGeometry(1.05, 1.28);
 
     // Create MANY cards (32 total) spread across the galaxy rings
